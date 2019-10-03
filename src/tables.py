@@ -45,7 +45,7 @@ def formatTable(nameList, statement, evaluatedExpressionList):
     for name in nameList:
         table += " " + name + " " * (7-len(name)-1) + "|"
     table += " " + statement + "\n"
-    sep = "=" * len(table) + "\n"
+    sep = "\n" + "=" * len(table) + "\n"
     for row in evaluatedExpressionList:
         for truth in row.variableValues:
             table += " " + str(truth) + " " * (7-len(str(truth))-1) + "|"
