@@ -1,2 +1,2 @@
 # tables
-Command line truth table generator (limitations allow "and", "or", and "not". Updates coming in the future)
+Command line truth table generator using 'and', 'or', and 'not'.
