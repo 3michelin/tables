@@ -52,10 +52,3 @@ def formatTable(nameList, statement, evaluatedExpressionList):
         table += " " + str(row.expressionValue) + "\n"
     
     return sep+table
-
-
-
-
-
-
-

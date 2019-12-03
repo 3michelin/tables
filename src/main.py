@@ -3,7 +3,6 @@ import savetable
 
 print("Welcome to tables, the command line truth table generator\n=========================================================")
 
-
 nameList = tables.getVarName()
 statement = tables.getStatement()
 flag = tables.checkStatement(nameList, statement)

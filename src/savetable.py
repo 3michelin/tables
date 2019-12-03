@@ -19,4 +19,3 @@ def ask(display):
             break
         else:
             print("That\'s not an option. Please choose an available option.")
-
